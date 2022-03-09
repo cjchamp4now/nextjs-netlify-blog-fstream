@@ -13,13 +13,13 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+            Femboy<span className="fancy">.</span>Webcams
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
           <SocialList />
         </div>
+        
       </div>
+      {/* <iframe className="chatfemroll" src="https://chaturbate.com/in/?tour=x1Rd&campaign=eYfm3&track=default&c=15&p=1&gender=x&tag=femboy"></iframe> */}
       <style jsx>{`
         .container {
           display: flex;
@@ -55,6 +55,9 @@ export default function Index() {
           h2 {
             font-size: 2.25rem;
           }
+        }
+        .chatfemroll{
+          width: 100%;
         }
       `}</style>
     </Layout>
